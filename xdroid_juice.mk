@@ -8,10 +8,10 @@
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
 # Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/xdroid/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_juice
+PRODUCT_NAME := xdroid_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Juice
