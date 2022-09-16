@@ -52,10 +52,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
@@ -140,6 +136,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Pixel Wallpapers
+PRODUCT_PACKAGES += \
+    PixelWallpapers2021
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.juice
@@ -186,6 +186,9 @@ PRODUCT_PACKAGES += \
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 BOARD_SHIPPING_API_LEVEL := 29
+
+# SystemUITests
+EXCLUDE_SYSTEMUI_TESTS := true
 
 # Target VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30

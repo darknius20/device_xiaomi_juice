@@ -32,4 +32,8 @@
 
     <!-- Whether to show the Preference for Adaptive connectivity -->
     <bool name="config_show_adaptive_connectivity">false</bool>
+
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer_summary">Darknius</string>
+    <string name="build_maintainer_telegram">https://t.me/CC_CLANG</string>
 </resources>

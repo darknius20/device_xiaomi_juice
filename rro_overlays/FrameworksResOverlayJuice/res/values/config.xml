@@ -1066,4 +1066,21 @@
 
     <!-- The number of the max cached processes in the system. -->
     <integer name="config_customizedMaxCachedProcesses">64</integer>
+
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">false</bool>
+
+    <!-- Does the device have a notification led -->
+    <bool name="config_hasNotificationLed">false</bool>
+
+     <!-- Does the battery LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">false</bool>
+
+     <!-- Do the battery/notification LEDs support pulsing?
+         Used to decide if we show pulse settings -->
+    <bool name="config_ledCanPulse">false</bool>
+
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">false</bool>
 </resources>

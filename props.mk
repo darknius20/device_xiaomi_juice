@@ -243,6 +243,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # System
 PRODUCT_PRODUCT_PROPERTIES += \
+    tombstoned.max_tombstone_count=50 \
     persist.sys.binary_xml=false
 
 # Transcoding related property.
